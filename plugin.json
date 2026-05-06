@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "suhasramanand-marketplace",
+  "description": "Personal Claude Code skills marketplace by Suhas Reddy — production-grade IaC, DevOps, and infrastructure skills",
+  "owner": {
+    "name": "Suhas Reddy",
+    "email": "baluvanahallyraman.s@northeastern.edu"
+  },
+  "plugins": [
+    {
+      "name": "terraform-best-practices",
+      "description": "Expert Terraform guidance covering state management, module design, security, CI/CD, and production-grade IaC best practices. Auto-activates when writing or reviewing .tf files.",
+      "author": {
+        "name": "Suhas Reddy"
+      },
+      "category": "devops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/suhasramanand/claude-skills-marketplace.git",
+        "path": "plugins/terraform-best-practices",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/suhasramanand/claude-skills-marketplace/tree/main/plugins/terraform-best-practices"
+    }
+  ]
+}

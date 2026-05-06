@@ -1,0 +1,8 @@
+{
+  "name": "terraform-best-practices",
+  "description": "Expert Terraform guidance covering state management, module design, security, CI/CD, and production-grade IaC best practices",
+  "author": {
+    "name": "Suhas Reddy",
+    "email": "baluvanahallyraman.s@northeastern.edu"
+  }
+}
