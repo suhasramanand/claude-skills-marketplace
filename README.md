@@ -26,6 +26,7 @@ Or add it manually to `~/.claude/plugins/known_marketplaces.json`:
 | Plugin | Category | Description |
 |--------|----------|-------------|
 | [terraform-best-practices](./plugins/terraform-best-practices) | DevOps / IaC | Production Terraform guidance: state management, modules, security, CI/CD, and anti-patterns |
+| [kubernetes-best-practices](./plugins/kubernetes-best-practices) | DevOps / K8s | Production Kubernetes guidance: pod security, RBAC, NetworkPolicy, resource management, observability, and cluster hardening |
 
 ## Plugin Structure
 
@@ -34,12 +35,18 @@ claude-skills-marketplace/
 ├── plugin.json                          # Marketplace registry
 ├── README.md
 └── plugins/
-    └── terraform-best-practices/
+    ├── terraform-best-practices/
+    │   ├── .claude-plugin/
+    │   │   └── plugin.json              # Plugin metadata
+    │   └── skills/
+    │       └── terraform/
+    │           └── SKILL.md             # Auto-activating skill definition
+    └── kubernetes-best-practices/
         ├── .claude-plugin/
-        │   └── plugin.json              # Plugin metadata
+        │   └── plugin.json
         └── skills/
-            └── terraform/
-                └── SKILL.md             # Auto-activating skill definition
+            └── kubernetes/
+                └── SKILL.md
 ```
 
 ## Adding More Skills

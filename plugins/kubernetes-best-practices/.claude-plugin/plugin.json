@@ -1,0 +1,8 @@
+{
+  "name": "kubernetes-best-practices",
+  "description": "Expert Kubernetes guidance covering pod security, RBAC, networking, resource management, observability, and production-grade cluster hardening",
+  "author": {
+    "name": "Suhas Reddy",
+    "email": "baluvanahallyraman.s@northeastern.edu"
+  }
+}

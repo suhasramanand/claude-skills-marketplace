@@ -21,6 +21,21 @@
         "ref": "main"
       },
       "homepage": "https://github.com/suhasramanand/claude-skills-marketplace/tree/main/plugins/terraform-best-practices"
+    },
+    {
+      "name": "kubernetes-best-practices",
+      "description": "Expert Kubernetes guidance covering pod security, RBAC, networking, resource management, observability, and production-grade cluster hardening. Auto-activates when writing or reviewing K8s manifests.",
+      "author": {
+        "name": "Suhas Reddy"
+      },
+      "category": "devops",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/suhasramanand/claude-skills-marketplace.git",
+        "path": "plugins/kubernetes-best-practices",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/suhasramanand/claude-skills-marketplace/tree/main/plugins/kubernetes-best-practices"
     }
   ]
 }
