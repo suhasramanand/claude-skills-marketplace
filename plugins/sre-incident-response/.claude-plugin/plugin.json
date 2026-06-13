@@ -1,0 +1,8 @@
+{
+  "name": "sre-incident-response",
+  "description": "Production SRE agent patterns: tiered incident investigation (k8sgpt → HolmesGPT → deep RCA), kagent CRD design, OTel tracing for agent workflows, blast-radius assessment, and human gate requirements",
+  "author": {
+    "name": "Suhas Reddy",
+    "email": "baluvanahallyraman.s@northeastern.edu"
+  }
+}

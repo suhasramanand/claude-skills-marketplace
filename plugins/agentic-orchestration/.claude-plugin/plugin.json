@@ -1,0 +1,8 @@
+{
+  "name": "agentic-orchestration",
+  "description": "Production Claude Code agentic patterns: CLAUDE.md architecture, sub-agent YAML frontmatter, PreToolUse/PostToolUse hooks, MCP server wiring, orchestrator-worker design, Writer/Reviewer loops, and git-worktree parallelism",
+  "author": {
+    "name": "Suhas Reddy",
+    "email": "baluvanahallyraman.s@northeastern.edu"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "dbt-data-platform",
+  "description": "Production dbt patterns for data platform engineers: MCP server wiring, self-healing pipeline agents, text-to-SQL architecture, Semantic Layer, data contracts, and Lakehouse CI/CD",
+  "author": {
+    "name": "Suhas Reddy",
+    "email": "baluvanahallyraman.s@northeastern.edu"
+  }
+}

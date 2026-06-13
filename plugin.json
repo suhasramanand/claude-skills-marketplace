@@ -1,12 +1,72 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "suhasramanand-marketplace",
-  "description": "Personal Claude Code skills marketplace by Suhas Reddy — production-grade IaC, DevOps, and infrastructure skills",
+  "description": "Personal Claude Code skills marketplace by Suhas Reddy — production-grade agentic workflows, data platform engineering, streaming agents, SRE incident response, IaC, and DevOps",
   "owner": {
     "name": "Suhas Reddy",
     "email": "baluvanahallyraman.s@northeastern.edu"
   },
   "plugins": [
+    {
+      "name": "agentic-orchestration",
+      "description": "Production Claude Code agentic patterns: CLAUDE.md architecture, sub-agent YAML frontmatter, PreToolUse/PostToolUse hooks, MCP server wiring, orchestrator-worker design, Writer/Reviewer loops, and git-worktree parallelism. Auto-activates when setting up Claude Code projects or designing multi-agent systems.",
+      "author": {
+        "name": "Suhas Reddy"
+      },
+      "category": "ai-agents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/suhasramanand/claude-skills-marketplace.git",
+        "path": "plugins/agentic-orchestration",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/suhasramanand/claude-skills-marketplace/tree/main/plugins/agentic-orchestration"
+    },
+    {
+      "name": "dbt-data-platform",
+      "description": "Production dbt patterns for data platform engineers: MCP server wiring, self-healing pipeline agents (Hiflylabs pattern), text-to-SQL architecture (LinkedIn SQL Bot pattern), Semantic Layer, data contracts, and Lakehouse CI/CD. Auto-activates when writing dbt models, configuring MCP, or building data agents.",
+      "author": {
+        "name": "Suhas Reddy"
+      },
+      "category": "data-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/suhasramanand/claude-skills-marketplace.git",
+        "path": "plugins/dbt-data-platform",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/suhasramanand/claude-skills-marketplace/tree/main/plugins/dbt-data-platform"
+    },
+    {
+      "name": "kafka-streaming-agents",
+      "description": "Production Kafka and Flink streaming agent patterns: Confluent Streaming Agents (Flink SQL), Schema Registry data contracts with CEL/JSONata rules, replayable orchestration, LLM-recommended test rules (Grab Coban pattern), and real-time context engines. Auto-activates when working with Kafka, Flink, Schema Registry, or event-driven agent architectures.",
+      "author": {
+        "name": "Suhas Reddy"
+      },
+      "category": "data-engineering",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/suhasramanand/claude-skills-marketplace.git",
+        "path": "plugins/kafka-streaming-agents",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/suhasramanand/claude-skills-marketplace/tree/main/plugins/kafka-streaming-agents"
+    },
+    {
+      "name": "sre-incident-response",
+      "description": "Production SRE agent patterns: tiered incident investigation (k8sgpt → HolmesGPT → deep RCA), kagent CRD design for Kubernetes-native agent runtime, OTel tracing for agent workflows, blast-radius assessment, runbook integration, and human gate requirements. Auto-activates when building incident-response agents or discussing on-call automation.",
+      "author": {
+        "name": "Suhas Reddy"
+      },
+      "category": "sre",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/suhasramanand/claude-skills-marketplace.git",
+        "path": "plugins/sre-incident-response",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/suhasramanand/claude-skills-marketplace/tree/main/plugins/sre-incident-response"
+    },
     {
       "name": "terraform-best-practices",
       "description": "Expert Terraform guidance covering state management, module design, security, CI/CD, and production-grade IaC best practices. Auto-activates when writing or reviewing .tf files.",

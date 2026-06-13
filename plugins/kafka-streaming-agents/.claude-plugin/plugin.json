@@ -1,0 +1,8 @@
+{
+  "name": "kafka-streaming-agents",
+  "description": "Production Kafka and Flink streaming agent patterns: Confluent Streaming Agents, Schema Registry data contracts, replayable orchestration, LLM-recommended test rules, and real-time context engines",
+  "author": {
+    "name": "Suhas Reddy",
+    "email": "baluvanahallyraman.s@northeastern.edu"
+  }
+}
